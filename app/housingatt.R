@@ -20,7 +20,7 @@ ui <- shinyUI(fluidPage(
   tabsetPanel(
     tabPanel("Upload Ames Home Data File",
              h4("The dataset can be found here:",
-                tags$a(href="https://github.com/joeyhdz/Attrition_Shiny_App/blob/master/attrition_data.csv", "Download Here!"),
+                tags$a(href="https://github.com/joeyhdz/Housing-SalePrice-App/tree/master/app", "Download Here!"),
                 tags$br(),tags$br(),
                 "Once downloaded, please upload it below:"),
              titlePanel("File Upload"),
